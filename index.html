@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div id="left">
+          <a href="https://about.google/">About</a>
+          <a href="https://store.google.com/">Store</a>
+        </div>
+        <div id="right">
+          <a href="https://mail.google.com/">Gmail</a>
+          <a href="https://www.google.com.tr/imghp?hl=tr&tab=ri&ogbl">Images</a>
+          <div id="apps">
+            <a href="https://www.google.com.tr/intl/tr/about/products?tab=rh"
+              ><img src="./images/appicon.png" alt=""
+            /></a>
+          </div>
+          <a href="https://accounts.google.com/"><button>Sıgn In</button></a>
+        </div>
+      </header>
+      <main>
+        <div id="google"></div>
+        <div class="search">
+          <div id="mercek"></div>
+          <div id="mic"></div>
+          <input type="search" id="search" />
+        </div>
+        <div class="buttons">
+          <button>
+            <a class="butonum" href="www.google.com">Google Search</a>
+          </button>
+          <button>
+            <a class="butonum" href="https://www.google.com/doodles/?hl=tr"
+              >I'm Felling Luckly</a
+            >
+          </button>
+        </div>
+      </main>
+      <footer>
+        <p>
+          Other Languages you can use Googel:
+          <a
+            href="https://www.google.com.tr/setprefs?sig=0_AtvQSWUoRz2t3R6UrPJBqGSlrZk%3D&hl=en&source=homepage&sa=X&ved=0ahUKEwiNyMnr-8T5AhVPX_EDHV0WAwgQ2ZgBCA4"
+            >English</a
+          >
+        </p>
+      </footer>
+    </div>
+    <script>
+      var btn = document.getElementById("mag");
+      var btn2 = document.getElementById("search");
+      btn.onclick = function () {
+        btn2.focus();
+      };
+    </script>
+  </body>
+</html>
