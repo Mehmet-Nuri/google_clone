@@ -1,1 +1,1 @@
-# google_clone
+https://mehmet-nuri.github.io/google_clone/
